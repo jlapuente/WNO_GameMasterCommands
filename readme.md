@@ -26,7 +26,6 @@ En esta sección se detallan los comandos disponibles, su uso y los parámetros 
 - **Parámetros**:
   - `<sound>`: La ruta al sonido. *(Obligatorio)*
   - `<range>`: La distancia a la que se oirá el sonido. 500 es un numero mas que decente.
-
 - **Ejemplo**:
     ```bash
     /PlaySound ambience/wind1.wav 200
@@ -43,7 +42,6 @@ En esta sección se detallan los comandos disponibles, su uso y los parámetros 
   - `<amplitude>`: idk *(Obligatorio)*
   - `<frequency>`: Cada cuanto se repite *(Obligatorio)*
   - `<radius>`: El radio en el que los jugadores recibiran el efecto *(Obligatorio)*
-
 - **Ejemplo**:
     ```bash
     /ScreenShake 20 20 25 500
@@ -58,7 +56,6 @@ En esta sección se detallan los comandos disponibles, su uso y los parámetros 
 - **Parámetros**:
   - `<mensaje>`: El texto que será enviado a los jugadores. *(Obligatorio)*
   - `<radio>`: El rango en el que será mostrado el evento. 500 es un rango mas que aceptable *(Opcional)*
-
 - **Ejemplo**:
     ```bash
     /LocalEvent "El viento recorre fuertemente la calle" 200 
@@ -72,10 +69,9 @@ En esta sección se detallan los comandos disponibles, su uso y los parámetros 
 - **Uso**: `/event message`
 - **Parámetros**:
   - `<message>`: Descripción del parámetro. *(Obligatorio)*
-
 - **Ejemplo**:
     ```bash
-    /event <valores de ejemplo>
+    /event "Cayó la noche en la ciudad"
     ```
 ---
 
@@ -106,7 +102,7 @@ En esta sección se detallan los comandos disponibles, su uso y los parámetros 
 
 - **Ejemplo**:
     ```bash
-    /StaticCharActionAdminSet "Taza de Mark" "La taza de café del famoso Mark Fontana"
+    /StaticCharActionAdminSet "Mark" "Tiene la pierna rota"
     ```
 
 ---
@@ -114,11 +110,7 @@ En esta sección se detallan los comandos disponibles, su uso y los parámetros 
 ## Comando: `/notify`
 
 - **Descripción**: @notifyPlayer
-
-- **Alias**: notify
-
 - **Uso**: `/notify character text`
-
 - **Parámetros**:
   - `<character>`: Personaje que notificar. *(Obligatorio)*
   - `<text>`: Texto a notificar. *(Obligatorio)*
@@ -162,9 +154,6 @@ En esta sección se detallan los comandos disponibles, su uso y los parámetros 
 ## Comando: `/SetWalkSpeed`
 
 - **Descripción**: Edita la velocidad al andar de un personaje.
-
-- **Alias**: Sin alias
-
 - **Uso**: `/setwalkspeed character value`
 
 - **Parámetros**:
